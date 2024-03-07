@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Greensweig's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1>
+                    <a href="index.html">
+                        <span class="fa-solid fa-code" aria-hidden="true"></span>
+                        <span>Noah Greensweig</span>
+                    </a>
+                </h1>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#about.html">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/noah-greensweig/" target="_blank">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/n-greensweig" target="_blank">
+                    <span class="fa-brands fa-square-github"></span>
+                    <span class="sr-only">GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.google.com/document/d/1vyA-bNDbxL94ju057WLxSpOUmp1pENqweZmiVkWFdDs/edit"
+                    target="_blank" class="button">Resume
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="intro">
+        <p class="name">Hi, my name is <span>Noah Greensweig.</span></p>
+
+        <h2>I develop software.</h2>
+
+        <p>I'm a developer specializing in JavaScript.</p>
+
+        <p>Currently, I'm working at the University of Minnesota as a Software Developer.</p>
+    </section>
+
+    <div class="gradient"></div>
+    <!-- instructions in JavaScript block -->
+    <div class="section-dkblue">
+        <section id="projects">
+            <h2>Projects I'm proud of</h2>
+
+            <article>
+                <div class="text">
+                    <h4>Latest Project</h4>
+                    <h3>SousAI</h3>
+                    <p class="blue-box">SousAI is a recipe app that includes a recipe-generating AI assistant and a
+                        saved recipe box. SousAI is hosted at <a href="https://www.sousai.io">sousai.io</a> using AWS
+                        and Heroku. The app is built with React, Redux, Node.js, PostgreSQL, and OpenAI's API. Users
+                        create recipes using Sous, the AI-backed recipe assistant. Users can save recipes to their
+                        recipe box and add either notes or photos to their saved recipes to revisit when cooking the
+                        recipe again in the future.</p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Redux</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>PostgreSQL</li>
+                        <li>OpenAI API</li>
+                    </ul>
+                </div>
+                <img src="img/SousAI.png" alt="Screenshot of SousAI." />
+            </article>
+
+            <article class="reverse">
+                <div class="text">
+                    <h4>Client project</h4>
+                    <h3>Nate's Fence and Gate</h3>
+                    <p class="blue-box">Nate's Fence and Gate allows users to view several different fence types across
+                        the application and consider what option suits their needs. The app is built with React,
+                        Tailwind CSS, and mySalesman and is hosted at <a
+                            href="https://www.natesfenceandgate.com">https://www.natesfenceandgate.com</a> using AWS and
+                        Heroku. Users may submit a free instant quote form using mySalesman's backend technology that is
+                        integrated into the project. The application is responsive across all screen sizes and serves as
+                        the business's primary channel for market visibility.</p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>AWS & Heroku</li>
+                        <li>mySalesman</li>
+                    </ul>
+                </div>
+                <img src="img/Nate.png" alt="Screenshot of Nate's Fence and Gate." />
+            </article>
+
+            <article>
+                <div class="text">
+                    <h4>Client project</h4>
+                    <h3>The Sixth Degree</h3>
+                    <p class="blue-box">The Sixth Degree is a digital version of the game 'The Six Degrees of Kevin
+                        Bacon'. The app allows two users to play the game against one another and has a scoring system
+                        to identify winners and losers of a challenge. The app is built with React, Redux, Node.js,
+                        PostgreSQL, and the Movie Database Project's API. Users save scripts (cards to play against one
+                        another) and challenge one another to see who can create the closest links between actors and
+                        movies.</p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Redux</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>PostgreSQL</li>
+                        <li>The Movie Database Project API</li>
+                    </ul>
+                </div>
+                <img src="img/the-sixth-degree.png" alt="Screenshot of The Sixth Degree." />
+            </article>
+
+        </section>
+    </div>
+
+    <div class="gradient"></div>
+    <div class="section-ltblue">
+        <section id="contact">
+            <h2>Contact me</h2>
+
+            <p>I'm always interested in hearing about opportunities to meet new individuals and learn new
+                skills.</p>
+
+            <p><a href="mailto:ngreensweig@gmail.com" class="button invert">Email me</a></p>
+        </section>
+    </div>
+
+    <div class="gradient"></div>
+    <footer>
+        <h2>Noah Greensweig &middot; Software Developer</h2>
+
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/noah-greensweig/" target="_blank">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/n-greensweig" target="_blank">
+                    <span class="fa-brands fa-square-github" aria-hidden="true"></span>
+                    <span class="sr-only">GitHub</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="mailto:ngreensweig@gmail.com" target="_blank">
+                    <span class="fa-solid fa-envelope"></span>
+                    <span class="sr-only">Email</span>
+                </a>
+            </li>
+        </ul>
+        <p>
+            <small>
+                &copy; 2024 Noah Greensweig. All rights reserved.
+            </small>
+        </p>
+    </footer>
+
+</body>
+
+</html>
